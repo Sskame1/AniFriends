@@ -1,3 +1,4 @@
+import Card from "../components/card"
 import FooterMenu from "../components/footer"
 import Header from "../components/Header"
 const Catalog = () => {
@@ -8,6 +9,14 @@ const Catalog = () => {
             <main id="catalog-main">
                 <div className="anime-catalog">
                     <div className="anime-title2"><p>Аниме:</p></div>
+                    <dib className="anime-cards">
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                    </dib>
                 </div>
             </main>
         </>
