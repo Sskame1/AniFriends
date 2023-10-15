@@ -5,6 +5,9 @@ const Profile = () => {
         <>
             <Header/>
             <FooterMenu />
+            <main>
+                
+            </main>
         </>
     )
 }
