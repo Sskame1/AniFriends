@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #353535;
+}
+ 
+header {
+  display: flex;
+  padding: 8px;
+  padding-left: 1em;
+  justify-content: space-between;
+}
+
+.menu {
+  padding-top: 10px;
+}
+
+#footer-menu {
+  background-color: #232323;
+  margin-top: 70vh;
+  width: 25em;
+  height: 86px;
+  color: white;
+  position: fixed;
+}
+
+.exit-btn-sett {
+  display: flex;
+  justify-content: end;
+  margin-top: -18px;
+  margin-right: 10px;
+}
+
+#Logo-in-sett {
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+}
+
+
+/* Стили для телефона */
+@media only screen and (max-width: 767px) {
+  .Ficon1 {
+    margin-left: 19.4em;
+    margin-top: 0.8em; 
+  }
+  
+  .Ficon1 img {
+   margin-left: 1em;
+  }
+  
+  .Ficon2 {
+    margin-left: 13.2em;
+    margin-top: -4.6em;
+  }
+  
+  .Ficon2 img {
+    margin-left: 0.5em;
+    margin-top: 4px;
+   }
+  
+  .Ficon3 {
+    margin-left: 7.4em;
+    margin-top: -4.2em;
+  }
+  
+  .Ficon3 img {
+    margin-left: 0.4em;
+   }
+  
+  .Ficon4 {
+    margin-left: 1.2em;
+    margin-top: -4.5em;
+  }
+  
+  .Ficon4 img {
+    margin-left: 0.3em;
+   }
+}
+
+/* Стили для планшета и ноутбука */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Дополнительные стили для планшета и ноутбука */
+}
+
+/* Стили для компьютера */
+@media only screen and (min-width: 1025px) {
+  /* Дополнительные стили для компьютера */
+}
+
+
+.dddd {
+  height: 500em;
+}
