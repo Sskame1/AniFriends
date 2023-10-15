@@ -7,7 +7,7 @@ const Settings = () => {
     return(
         <>
             <img id="Logo-in-sett" src={Logo} />
-            <div className="exit-btn-sett"><BsXSquare size={50} /></div>
+            <div className="exit-btn-sett"><BsXSquare size={40} /></div>
             <FooterMenu />
         </>
     )
