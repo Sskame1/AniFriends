@@ -15,8 +15,7 @@
 - React.js
 - Node.js
 - Python
-- Django
-- Rest_Framework
+- FastApi
   
 # Инструкции по сборке
 
@@ -44,31 +43,31 @@ yarn start
 http://localhost:3000
 ```
 
-## 3. Установка Python и запуск локального сервера Django
+## 3. Установка Python и запуск локального сервера FastAPI
 
-Для работы с Django на компьютере должен быть установлен Python.
+Для работы с FastAPI на компьютере должен быть установлен Python.
 
 Посетите [официальный сайт](https://www.python.org/) Python и загрузите [версию 3.11.6](https://www.python.org/downloads/release/python-3116/) или выше.
 
-Затем откройте командную строку или терминал и перейдите в папку ```Backend```, набрав:
+Затем откройте командную строку или терминал и перейдите в папку ```Back```, набрав:
 
 ```
-cd .\backend\
+cd .\back\
 ```
 
 Запустите локальный сервер, написав команду:
 
 *Windows*
 ```
-py manage.py runserver
+uvicorn main:app --reload
 ```
 
 *Linux*
 ```
-Python manage.py runserver
+uvicorn main:app --reload
 ```
 
 Затем зайдите на локальный сервер Django по адресу:
 ```
-http://localhost:8000
+http://localhost:8000/docs
 ```
