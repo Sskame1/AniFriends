@@ -15,8 +15,8 @@ const Homepage = () => {
             <div className="baner">
                 <img className="img-baner" src={Baner1} />
                 <h1>Обещанная Страна <br/>Грёз</h1>
-                <Link className="btn-baner">Смотреть</Link>
-                <Link className="btn-baner2">Описание</Link>
+                <Link to="/anime1" className="btn-baner">Смотреть</Link>
+                <Link to="/anime1" className="btn-baner2">Описание</Link>
             </div>
             <div className="anime-top">
                 <h1 id="q">Топ 3 новых аниме</h1>

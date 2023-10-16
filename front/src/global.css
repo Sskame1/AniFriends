@@ -198,6 +198,54 @@ header {
     border-radius: 20px;
    }
    
+   /* профиль */
+
+   #auth-profile {
+    /* background-color: red; */
+    color: white;
+    width: 25em;
+    height: 30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    margin-top: -50px;
+   }
+
+   .Anime {
+    /* background-color: red; */
+    height: 40em;
+    width: 25em;
+    display: flex;
+   }
+
+   .Anime-title {
+    /* background-color: red;  */
+    height: 100em;
+    width: 50em;
+    padding-top: 100px;
+    color: white;
+   }
+   #input-auth input {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 10px;
+   }
+   #input-auth button {
+    background-color: black;
+    margin-left: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 10px;
+   }
+
+   .Anime-title img{
+    margin-left: 50px;
+    border-radius: 10px;
+   }
 }
 
 /* Стили для планшета и ноутбука */
@@ -211,6 +259,6 @@ header {
 }
 
 
-.dddd {
-  height: 500em;
+#hide {
+  color: #353535;
 }
