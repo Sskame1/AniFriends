@@ -67,7 +67,7 @@ uvicorn main:app --reload
 uvicorn main:app --reload
 ```
 
-Затем зайдите на локальный сервер Django по адресу:
+Затем зайдите на локальный сервер FastAPI по адресу:
 ```
 http://localhost:8000/docs
 ```
