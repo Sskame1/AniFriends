@@ -1,0 +1,16 @@
+.container {
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
